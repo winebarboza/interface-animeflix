@@ -38,8 +38,13 @@ header nav a:hover{
 /* estilo relacionado ao conteúdo proncipal*/
 
 .anime-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     font-size: 17px;
-    background-image:url('/images/deathnote.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/deathnote.jpg');
     height: 600px;
     background-size:cover;
+    
 }
