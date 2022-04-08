@@ -46,5 +46,14 @@ header nav a:hover{
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/deathnote.jpg');
     height: 600px;
     background-size:cover;
-    
+}
+.titulo{
+    font-size: 50px;
+}
+.botao{
+background-color: rgba(0,0,0,.50);
+border: none;
+color: white;
+padding: 15px;;
+
 }
